@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>angular exp</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="./module.js"></script>
+<body ng-app="myApp">
+<div ng-controller="controller">
+<p ng-if="enabled">I am here because I'm enabled</p>
+<button ng-click="enabled=!enabled">Click Me!</button>
+</div>
+</body>
+</html>
